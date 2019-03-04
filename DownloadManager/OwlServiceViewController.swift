@@ -9,7 +9,7 @@
 import UIKit
 import MockService
 
-class ViewController: UIViewController {
+class OwlServiceViewController: UIViewController {
 
     let service:UnpredictableSlowService = UnpredictableSlowService.shared
     

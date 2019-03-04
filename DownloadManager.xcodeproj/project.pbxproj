@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8225D042222CDA7A009B051A /* OwlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225D041222CDA7A009B051A /* OwlTableViewCell.swift */; };
 		E142079F219B4E98004A2FE0 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E142079E219B4E98004A2FE0 /* Readme.rtf */; };
 		E190A9F6219A6123006369B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190A9F5219A6123006369B9 /* AppDelegate.swift */; };
-		E190A9F8219A6123006369B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190A9F7219A6123006369B9 /* ViewController.swift */; };
+		E190A9F8219A6123006369B9 /* OwlServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190A9F7219A6123006369B9 /* OwlServiceViewController.swift */; };
 		E190A9FB219A6123006369B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E190A9F9219A6123006369B9 /* Main.storyboard */; };
 		E190A9FD219A6126006369B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E190A9FC219A6126006369B9 /* Assets.xcassets */; };
 		E190AA00219A6126006369B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E190A9FE219A6126006369B9 /* LaunchScreen.storyboard */; };
@@ -44,10 +45,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8225D041222CDA7A009B051A /* OwlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlTableViewCell.swift; sourceTree = "<group>"; };
 		E142079E219B4E98004A2FE0 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
 		E190A9F2219A6123006369B9 /* DownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E190A9F5219A6123006369B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E190A9F7219A6123006369B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E190A9F7219A6123006369B9 /* OwlServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlServiceViewController.swift; sourceTree = "<group>"; };
 		E190A9FA219A6123006369B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E190A9FC219A6126006369B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E190A9FF219A6126006369B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				E190A9F5219A6123006369B9 /* AppDelegate.swift */,
-				E190A9F7219A6123006369B9 /* ViewController.swift */,
+				E190A9F7219A6123006369B9 /* OwlServiceViewController.swift */,
+				8225D041222CDA7A009B051A /* OwlTableViewCell.swift */,
 				E190A9F9219A6123006369B9 /* Main.storyboard */,
 				E190A9FC219A6126006369B9 /* Assets.xcassets */,
 				E190A9FE219A6126006369B9 /* LaunchScreen.storyboard */,
@@ -234,7 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E190A9F8219A6123006369B9 /* ViewController.swift in Sources */,
+				8225D042222CDA7A009B051A /* OwlTableViewCell.swift in Sources */,
+				E190A9F8219A6123006369B9 /* OwlServiceViewController.swift in Sources */,
 				E190A9F6219A6123006369B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +403,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E437MYXN6R;
+				DEVELOPMENT_TEAM = DYK92P2HLR;
 				INFOPLIST_FILE = DownloadManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,7 +422,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E437MYXN6R;
+				DEVELOPMENT_TEAM = DYK92P2HLR;
 				INFOPLIST_FILE = DownloadManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
