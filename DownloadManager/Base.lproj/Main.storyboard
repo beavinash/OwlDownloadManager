@@ -44,8 +44,15 @@
                                                 <constraint firstAttribute="trailing" secondItem="6W8-vj-Rj7" secondAttribute="trailing" constant="12" id="ubs-YW-fEb"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dataCellLabel" destination="6W8-vj-Rj7" id="cQn-zn-lBZ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="FAM-x9-g4k"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="oVQ-9k-J7N"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,6 +65,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="OWL" id="eIt-RC-ysa"/>
+                    <connections>
+                        <outlet property="tableView" destination="V49-Kn-Th4" id="Z24-0T-bxQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

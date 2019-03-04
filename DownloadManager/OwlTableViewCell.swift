@@ -9,7 +9,13 @@
 import UIKit
 
 class OwlTableViewCell: UITableViewCell {
-
+    
+    //MARK: - Properties for UITableViewCell
+    
+    @IBOutlet weak var dataCellLabel: UILabel!
+    
+    //MARK: - Additional functions for UITableViewCell Configuration
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
