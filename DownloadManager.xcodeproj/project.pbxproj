@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8225D042222CDA7A009B051A /* OwlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225D041222CDA7A009B051A /* OwlTableViewCell.swift */; };
+		8225D04A222CE83D009B051A /* DownloadManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225D049222CE83D009B051A /* DownloadManagerTests.swift */; };
 		E142079F219B4E98004A2FE0 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E142079E219B4E98004A2FE0 /* Readme.rtf */; };
 		E190A9F6219A6123006369B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190A9F5219A6123006369B9 /* AppDelegate.swift */; };
 		E190A9F8219A6123006369B9 /* OwlServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190A9F7219A6123006369B9 /* OwlServiceViewController.swift */; };
@@ -21,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8225D04C222CE83D009B051A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E190A9EA219A6123006369B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E190A9F1219A6123006369B9;
+			remoteInfo = DownloadManager;
+		};
 		E190AA11219A618D006369B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E190A9EA219A6123006369B9 /* Project object */;
@@ -46,6 +54,9 @@
 
 /* Begin PBXFileReference section */
 		8225D041222CDA7A009B051A /* OwlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlTableViewCell.swift; sourceTree = "<group>"; };
+		8225D047222CE83D009B051A /* DownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8225D049222CE83D009B051A /* DownloadManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerTests.swift; sourceTree = "<group>"; };
+		8225D04B222CE83D009B051A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E142079E219B4E98004A2FE0 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
 		E190A9F2219A6123006369B9 /* DownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E190A9F5219A6123006369B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +72,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8225D044222CE83D009B051A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E190A9EF219A6123006369B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,12 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8225D048222CE83D009B051A /* DownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8225D049222CE83D009B051A /* DownloadManagerTests.swift */,
+				8225D04B222CE83D009B051A /* Info.plist */,
+			);
+			path = DownloadManagerTests;
+			sourceTree = "<group>";
+		};
 		E190A9E9219A6123006369B9 = {
 			isa = PBXGroup;
 			children = (
 				E142079E219B4E98004A2FE0 /* Readme.rtf */,
 				E190A9F4219A6123006369B9 /* DownloadManager */,
 				E190AA0D219A618D006369B9 /* MockService */,
+				8225D048222CE83D009B051A /* DownloadManagerTests */,
 				E190A9F3219A6123006369B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +122,7 @@
 			children = (
 				E190A9F2219A6123006369B9 /* DownloadManager.app */,
 				E190AA0C219A618D006369B9 /* MockService.framework */,
+				8225D047222CE83D009B051A /* DownloadManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +165,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8225D046222CE83D009B051A /* DownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8225D04E222CE83D009B051A /* Build configuration list for PBXNativeTarget "DownloadManagerTests" */;
+			buildPhases = (
+				8225D043222CE83D009B051A /* Sources */,
+				8225D044222CE83D009B051A /* Frameworks */,
+				8225D045222CE83D009B051A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8225D04D222CE83D009B051A /* PBXTargetDependency */,
+			);
+			name = DownloadManagerTests;
+			productName = DownloadManagerTests;
+			productReference = 8225D047222CE83D009B051A /* DownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E190A9F1219A6123006369B9 /* DownloadManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E190AA04219A6126006369B9 /* Build configuration list for PBXNativeTarget "DownloadManager" */;
@@ -179,10 +226,14 @@
 		E190A9EA219A6123006369B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "725-1 Corporation";
 				TargetAttributes = {
+					8225D046222CE83D009B051A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E190A9F1219A6123006369B9;
+					};
 					E190A9F1219A6123006369B9 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -207,11 +258,19 @@
 			targets = (
 				E190A9F1219A6123006369B9 /* DownloadManager */,
 				E190AA0B219A618D006369B9 /* MockService */,
+				8225D046222CE83D009B051A /* DownloadManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8225D045222CE83D009B051A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E190A9F0219A6123006369B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +292,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8225D043222CE83D009B051A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8225D04A222CE83D009B051A /* DownloadManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E190A9EE219A6123006369B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +321,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8225D04D222CE83D009B051A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E190A9F1219A6123006369B9 /* DownloadManager */;
+			targetProxy = 8225D04C222CE83D009B051A /* PBXContainerItemProxy */;
+		};
 		E190AA12219A618D006369B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E190AA0B219A618D006369B9 /* MockService */;
@@ -281,6 +353,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8225D04F222CE83D009B051A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYK92P2HLR;
+				INFOPLIST_FILE = DownloadManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owlapp.DownloadManager.DownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadManager.app/DownloadManager";
+			};
+			name = Debug;
+		};
+		8225D050222CE83D009B051A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYK92P2HLR;
+				INFOPLIST_FILE = DownloadManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owlapp.DownloadManager.DownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadManager.app/DownloadManager";
+			};
+			name = Release;
+		};
 		E190AA02219A6126006369B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -497,6 +611,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8225D04E222CE83D009B051A /* Build configuration list for PBXNativeTarget "DownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8225D04F222CE83D009B051A /* Debug */,
+				8225D050222CE83D009B051A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E190A9ED219A6123006369B9 /* Build configuration list for PBXProject "DownloadManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
